@@ -9,7 +9,7 @@ app.use(express.json());
 const PORT = process.env.PORT || 5000;
 
 const mongoDBURI = process.env.MONGODB_URI || 'mongodb://localhost:27017/essenbestellen';
-mongoose.connect(mongoDBURI, { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect(mongoDBURI, { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true })
 .then(() => console.log('Database successfully connected!'))
 .catch(err => console.error('Database connection failed:', err));
 
