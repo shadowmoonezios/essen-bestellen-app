@@ -10,7 +10,7 @@
     "install": "npm install && npm install --prefix client",
     "build": "npm run build --prefix client"
   },
-  "author": "Dein Name",
+  "author": "Max Mustermann",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
