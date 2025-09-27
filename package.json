@@ -1,6 +1,6 @@
 {
   "name": "essen-bestellen-app",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Eine App zum Bestellen von Essen in Lieblingsrestaurants.",
   "main": "index.js",
   "scripts": {
